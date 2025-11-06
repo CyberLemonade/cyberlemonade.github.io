@@ -24,66 +24,29 @@
       margin: 4rem auto;
     }
   </style>
-
-  <style>
-    .photo-desktop {
-      display: block;
-    }
-  
-    .profile-photo {
-      display: none;
-    }
-  
-    /* On mobile: hide desktop photo, show inline one below title */
-    @media (max-width: 768px) {
-      main {
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
-      }
-  
-      .photo-desktop {
-        display: none;
-      }
-  
-      .profile-photo {
-        display: block;
-      }
-  
-      .profile-photo img {
-        max-width: 70%;
-      }
-    }
-  </style>
 </head>
 <body>
 <main class="container" style="
   display: flex;
-  flex-wrap: wrap;
   align-items: flex-start;
   gap: 2rem;
   margin-top: 2rem;
 ">
-  <div style="flex: 2; min-width: 250px;">
-    <h1>Your Name</h1>
-    <h3 style="font-size: 1.1rem; font-weight: 400; margin-top: -0.5rem;">
+  <div style="flex: 2;">
+    <h1>Diptaksho Palit</h1>
+    <h3 style="font-size: 1.5rem; font-weight: 400; margin-top: -0.5rem;">
       PhD Student, Boston University
     </h3>
-
-    <div class="profile-photo" style="display: none;">
-      <img src="../assets/me.jpg" alt="Photo of Your Name" style="max-width: 60%; border-radius: 8px; margin: 1rem 0;">
-    </div>
-
     <p>
-      Blah blah blah
+      This website is a WIP :)
     </p>
     <p>
-      Yabba dabba doo...
+      Blah blah blah...
     </p>
   </div>
 
-  <div class="photo-desktop" style="flex: 1;">
-    <img src="../assets/me.jpg" alt="Photo of Your Name"
+  <div style="flex: 1;">
+    <img src="assets/me.jpg" alt="Photo of Your Name"
          style="max-width: 100%; border-radius: 8px;">
   </div>
 </main>
