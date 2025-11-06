@@ -13,9 +13,38 @@
       margin-top: 3rem;
     }
 
-    ul.publications {
-      list-style-type: disc;
-      padding-left: 1.5rem;
+    .publication-list {
+      list-style: none;
+      padding: 0;
+    }
+    
+    .paper {
+      margin-bottom: 2rem;
+      border-left: 3px solid #9b4dca;
+      padding-left: 1rem;
+    }
+    
+    .paper-title a {
+      font-size: 1.2rem;
+      font-weight: 600;
+      color: #9b4dca;
+      text-decoration: none;
+    }
+    
+    .paper-title a:hover {
+      text-decoration: underline;
+    }
+    
+    .paper-authors {
+      margin: 0.3rem 0;
+      font-size: 1rem;
+      color: #333;
+    }
+    
+    .paper-venue {
+      margin-bottom: 0.6rem;
+      color: #666;
+      font-size: 0.95rem;
     }
 
     .paper {
@@ -68,47 +97,48 @@
 
     <ul class="publications">
 
-      <li class="paper">
-        <div class="paper-title">
-          <a href="https://arxiv.org/abs/2510.05927" target="_blank">
-            Computational Complexity in Property Testing
-          </a>
+      <div class="publication-list">
+        <div class="paper">
+          <div class="paper-title">
+            <a href="https://arxiv.org/abs/2510.05927" target="_blank">
+              Computational Complexity in Property Testing
+            </a>
+          </div>
+          <div class="paper-authors">
+            <a href="https://cs.uwaterloo.ca/~r4ferrei/" target="_blank">Renato Ferreira Pinto Jr.</a>,
+            <strong>Diptaksho Palit</strong>,
+            <a href="https://cs-people.bu.edu/sofya/" target="_blank">Sofya Raskhodnikova</a>
+          </div>
+          <div class="paper-venue">
+            <strong>SODA 2026</strong>.
+          </div>
+          <div class="buttons">
+            <a class="button button-outline" href="https://arxiv.org/pdf/2510.05927" target="_blank">arXiv</a>
+          </div>
         </div>
-        <div class="paper-authors">
-          <a href="https://cs.uwaterloo.ca/~r4ferrei/" target="_blank">Renato Ferreira Pinto Jr.</a>,
-          <strong>Diptaksho Palit</strong>, and
-          <a href="https://cs-people.bu.edu/sofya/" target="_blank">Sofya Raskhodnikova</a>
+  
+        <div class="paper">
+          <div class="paper-title">
+            <a href="https://arxiv.org/abs/2510.21589" target="_blank">
+              Relative-error unateness testing
+            </a>
+          </div>
+          <div class="paper-authors">
+            <a href="https://www.cs.columbia.edu/~xichen/" target="_blank">Xi Chen</a>,
+            <strong>Diptaksho Palit</strong>,
+            <a href="https://kabirp.github.io/" target="_blank">Kabir Peshawaria</a>,
+            <a href="https://simons.berkeley.edu/people/william-pires" target="_blank">William Pires</a>,
+            <a href="https://www.cs.columbia.edu/~rocco/" target="_blank">Rocco Servedio</a>,
+            <a href="https://qwertyzyding.github.io/" target="_blank">Yiding Zhang</a>
+          </div>
+          <div class="paper-venue">
+            In submission.
+          </div>
+          <div class="buttons">
+            <a class="button button-outline" href="https://arxiv.org/pdf/2510.21589" target="_blank">arXiv</a>
+          </div>
         </div>
-        <div class="paper-venue">
-          <strong>SODA 2026</strong>.
-        </div>
-        <div class="buttons">
-          <a class="button button-outline" href="https://arxiv.org/pdf/2510.05927" target="_blank">arXiv</a>
-        </div>
-      </li>
-
-      <li class="paper">
-        <div class="paper-title">
-          <a href="https://arxiv.org/abs/2510.21589" target="_blank">
-            Relative-error unateness testing
-          </a>
-        </div>
-        <div class="paper-authors">
-          <a href="https://www.cs.columbia.edu/~xichen/" target="_blank">Xi Chen</a>,
-          <strong>Diptaksho Palit</strong>, and
-          <a href="https://kabirp.github.io/" target="_blank">Kabir Peshawaria</a>
-          <a href="https://simons.berkeley.edu/people/william-pires" target="_blank">William Pires</a>
-          <a href="https://www.cs.columbia.edu/~rocco/" target="_blank">Rocco Servedio</a>
-          <a href="https://qwertyzyding.github.io/" target="_blank">Yiding Zhang</a>
-        </div>
-        <div class="paper-venue">
-          In submission.
-        </div>
-        <div class="buttons">
-          <a class="button button-outline" href="https://arxiv.org/pdf/2510.21589" target="_blank">arXiv</a>
-        </div>
-      </li>
-
+      </div>
       <!-- Add more papers below as <li class="paper"> ... </li> -->
 
     </ul>
