@@ -4,7 +4,7 @@
   <script>
     const pageTitle = "Diptaksho Palit | Blog | Blank Post";
 
-    fetch("../partials/head.html")
+    fetch("../../partials/head.html")
       .then((res) => res.text())
       .then((data) => {
         document.head.innerHTML = `<title>${pageTitle}</title>\n${data}`;
@@ -13,7 +13,7 @@
 </head>
 
 <script>
-  fetch("../partials/nav.html")
+  fetch("../../partials/nav.html")
     .then(response => response.text())
     .then(data => {
       document.getElementById("navbar-placeholder").innerHTML = data;
