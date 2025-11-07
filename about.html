@@ -28,7 +28,7 @@
 </head>
 
 <script>
-  fetch("/navbar.html")
+  fetch("/partials/nav.html")
     .then(response => response.text())
     .then(data => {
       document.getElementById("navbar-placeholder").innerHTML = data;
