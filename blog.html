@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <script>
+    const pageTitle = "Diptaksho Palit | Blog";
+
+    fetch("/partials/head.html")
+      .then((res) => res.text())
+      .then((data) => {
+        document.head.innerHTML = `<title>${pageTitle}</title>\n${data}`;
+      });
+  </script>
+</head>
+
+<script>
+  fetch("/partials/nav.html")
+    .then(response => response.text())
+    .then(data => {
+      document.getElementById("navbar-placeholder").innerHTML = data;
+    });
+
+    fetch("/blog/posts.json")
+      .then((res) => res.json())
+      .then((posts) => {
+        posts.sort((a, b) => new Date(b.date) - new Date(a.date));
+
+        const blogList = document.getElementById("blog-list");
+        posts.forEach((post) => {
+          const entry = document.createElement("div");
+          entry.classList.add("blog-entry");
+          entry.innerHTML = `
+            <h3><a href="/blog/${post.folder}/index.html">${post.title}</a></h3>
+            <p class="blog-meta">${post.date}</p>
+            <p>${post.description}</p>
+            <hr>
+          `;
+          blogList.appendChild(entry);
+        });
+      });
+</script>
+  
+<body>
+  <div class="container">
+
+    <!-- navbar -->
+    <div id="navbar-placeholder"></div>
+
+    <!-- blog -->
+    <div class="docs-section" id="blog">
+      <h2 class="docs-header">Blog</h2>
+      <p>For if I ever have the enthusiasm to maintain a blog.</p>
+      <hr>
+
+      <div id="blog-list"></div>
+    </div>    
+  </div>
+</body>
+</html>
