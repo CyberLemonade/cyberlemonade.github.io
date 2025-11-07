@@ -1,30 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <!-- Basic Page Needs
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <meta charset="utf-8">
-  <title>Diptaksho Palit | Miscellaneous</title>
-  <meta name="description" content="">
-  <meta name="author" content="">
+  <script>
+    const pageTitle = "Diptaksho Palit | Miscellaneous";
 
-  <!-- Mobile Specific Metas
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-
-  <!-- FONT
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
-
-  <!-- CSS
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <!-- <link rel="stylesheet" href="css/normalize.css"> -->
-  <link rel="stylesheet" href="css/custom.css">
-  <link rel="stylesheet" href="css/skeleton.css">
-
-  <!-- Favicon
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <!-- <link rel="icon" type="image/png" href="images/favicon.png"> -->
+    fetch("/partials/head.html")
+      .then((res) => res.text())
+      .then((data) => {
+        document.head.innerHTML = `<title>${pageTitle}</title>\n${data}`;
+      });
+  </script>
 </head>
 
 <script>
@@ -45,7 +30,7 @@
     <div class="docs-section" id="publications">
       <h6 class="docs-header">Miscellaneous</h6>
 
-      <p>Cool rock facts go here</p>      
+      <p>Cool rock facts go here.</p>      
     </div>
   </div>
 </body>
