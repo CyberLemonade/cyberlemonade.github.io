@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <script>
+    const pageTitle = "Diptaksho Palit | Blog | Blank Post";
+
+    fetch("../partials/head.html")
+      .then((res) => res.text())
+      .then((data) => {
+        document.head.innerHTML = `<title>${pageTitle}</title>\n${data}`;
+      });
+  </script>
+</head>
+
+<script>
+  fetch("../partials/nav.html")
+    .then(response => response.text())
+    .then(data => {
+      document.getElementById("navbar-placeholder").innerHTML = data;
+    });
+</script>
+  
+<body>
+  <div class="container">
+
+    <!-- navbar -->
+    <div id="navbar-placeholder"></div>
+
+    <!-- miscellaneous -->
+    <div class="docs-section" id="blank post">
+      <h6 class="docs-header">Blank Post</h6>
+
+      <p>Nothing to see here.</p>      
+    </div>
+  </div>
+</body>
+</html>
