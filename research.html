@@ -27,26 +27,19 @@
   <!-- <link rel="icon" type="image/png" href="images/favicon.png"> -->
 </head>
 
+<script>
+  fetch("/partials/nav.html")
+    .then(response => response.text())
+    .then(data => {
+      document.getElementById("navbar-placeholder").innerHTML = data;
+    });
+</script>
+  
 <body>
   <div class="container">
 
     <!-- navbar -->
-    <div class="navbar-spacer"></div>
-    <nav class="navbar">
-      <div class="container">
-        <ul class="navbar-list">
-          
-          <li class="navbar-item">
-            <a class="navbar-link" href="/about.html">About</a>
-          </li>
-          
-          <li class="navbar-item">
-            <a class="navbar-link" href="/research.html">Research</a>
-          </li>
-          
-        </ul>
-      </div>
-    </nav>
+    <div id="navbar-placeholder"></div>
 
     <!-- publications -->
     <div class="docs-section" id="publications">
