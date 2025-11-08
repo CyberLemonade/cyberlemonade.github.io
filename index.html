@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <script>
+  <!-- <script>
     const pageTitle = "Diptaksho Palit";
 
     fetch("/partials/head.html")
@@ -9,22 +9,28 @@
       .then((data) => {
         document.head.innerHTML = `<title>${pageTitle}</title>\n${data}`;
       });
-  </script>
+  </script> -->
+  
+  <title>Diptaksho Palit</title>
+  <object type="text/html" data="/partials/head.html" id="head-partial" style="display:none;"></object>
 </head>
 
-<script>
+<!-- <script>
   fetch("/partials/nav.html")
     .then(response => response.text())
     .then(data => {
       document.getElementById("navbar-placeholder").innerHTML = data;
     });
-</script>
+</script> -->
   
 <body>
   <div class="container">
 
     <!-- navbar -->
-    <div id="navbar-placeholder"></div>
+    <!-- <div id="navbar-placeholder"></div> -->
+    <object type="text/html" data="/partials/nav.html"
+            id="navbar-placeholder"
+            style="width:100%; height:60px; border:0;"></object>
     
     <!-- about -->
     <div class="docs-section" id="about">
