@@ -1,31 +1,3 @@
-/*
-* Skeleton V2.0.4
-* Copyright 2014, Dave Gamache
-* www.getskeleton.com
-* Free to use under the MIT license.
-* http://www.opensource.org/licenses/mit-license.php
-* 12/29/2014
-*/
-
-
-/* Table of contents
-––––––––––––––––––––––––––––––––––––––––––––––––––
-- Grid
-- Base Styles
-- Typography
-- Links
-- Buttons
-- Forms
-- Lists
-- Code
-- Tables
-- Spacing
-- Utilities
-- Clearing
-- Media Queries
-*/
-
-
 /* Grid
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .container {
@@ -231,68 +203,6 @@ input[type="button"].button-primary:focus {
   border-color: #1EAEDB; }
 
 
-/* Forms
-–––––––––––––––––––––––––––––––––––––––––––––––––– */
-input[type="email"],
-input[type="number"],
-input[type="search"],
-input[type="text"],
-input[type="tel"],
-input[type="url"],
-input[type="password"],
-textarea,
-select {
-  height: 38px;
-  padding: 6px 10px; /* The 6px vertically centers text on FF, ignored by Webkit */
-  background-color: #fff;
-  border: 1px solid #D1D1D1;
-  border-radius: 4px;
-  box-shadow: none;
-  box-sizing: border-box; }
-/* Removes awkward default styles on some inputs for iOS */
-input[type="email"],
-input[type="number"],
-input[type="search"],
-input[type="text"],
-input[type="tel"],
-input[type="url"],
-input[type="password"],
-textarea {
-  -webkit-appearance: none;
-     -moz-appearance: none;
-          appearance: none; }
-textarea {
-  min-height: 65px;
-  padding-top: 6px;
-  padding-bottom: 6px; }
-input[type="email"]:focus,
-input[type="number"]:focus,
-input[type="search"]:focus,
-input[type="text"]:focus,
-input[type="tel"]:focus,
-input[type="url"]:focus,
-input[type="password"]:focus,
-textarea:focus,
-select:focus {
-  border: 1px solid #33C3F0;
-  outline: 0; }
-label,
-legend {
-  display: block;
-  margin-bottom: .5rem;
-  font-weight: 600; }
-fieldset {
-  padding: 0;
-  border-width: 0; }
-input[type="checkbox"],
-input[type="radio"] {
-  display: inline; }
-label > .label-body {
-  display: inline-block;
-  margin-left: .5rem;
-  font-weight: normal; }
-
-
 /* Lists
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 ul {
@@ -365,20 +275,6 @@ form {
   margin-bottom: 2.5rem; }
 
 
-/* Utilities
-–––––––––––––––––––––––––––––––––––––––––––––––––– */
-.u-full-width {
-  width: 100%;
-  box-sizing: border-box; }
-.u-max-full-width {
-  max-width: 100%;
-  box-sizing: border-box; }
-.u-pull-right {
-  float: right; }
-.u-pull-left {
-  float: left; }
-
-
 /* Misc
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 hr {
@@ -400,27 +296,81 @@ hr {
   clear: both; }
 
 
-/* Media Queries
+/* Navbar
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
-/*
-Note: The best way to structure the use of media queries is to create the queries
-near the relevant code. For example, if you wanted to change the styles for buttons
-on small devices, paste the mobile query code up in the buttons section and style it
-there.
-*/
+.navbar {
+  width: 100%;
+  background: #fff;
+  border-top: 1px solid #eee;
+  border-bottom: 1px solid #eee;
+}
+.navbar > .container {
+  width: 100%;
+}
+.navbar-list {
+  list-style: none;
+  margin-bottom: 0;
+}
+.navbar-item {
+  position: relative;
+  float: left;
+  margin-bottom: 0;
+}
+.navbar-link {
+  text-transform: uppercase;
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: .2rem;
+  margin-right: 35px;
+  text-decoration: none;
+  line-height: 6.5rem;
+}
 
 
-/* Larger than mobile */
-@media (min-width: 400px) {}
+/* Section Styling
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.docs-header {
+  text-transform: uppercase;
+  font-size: 1.4rem;
+  letter-spacing: .2rem;
+  font-weight: 600;
+}
+.docs-section {
+  border-top: 1px solid #eee;
+  padding: 4rem 0;
+  margin-bottom: 0;
+}
 
-/* Larger than phablet (also point when grid becomes active) */
-@media (min-width: 550px) {}
 
-/* Larger than tablet */
-@media (min-width: 750px) {}
+/* Publications
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.publication-list {
+  list-style: none;
+  padding-left: 0;
+  margin-top: 0rem;
+}
 
-/* Larger than desktop */
-@media (min-width: 1000px) {}
+.publication-item {
+  margin-top: 2rem;
+  padding-left: 1rem;
+  border-left: 3px solid #1EAEDB;
+}
 
-/* Larger than Desktop HD */
-@media (min-width: 1200px) {}
+.publication-title {
+  font-size: 2rem;
+  font-weight: 500;
+  color: #222;
+  margin-bottom: 0.6rem;
+}
+
+.publication-authors {
+  color: #666;
+  margin-bottom: 0.5rem;
+}
+
+.publication-meta {
+  color: #888;
+  font-style: italic;
+  margin-bottom: 1rem;
+}
+
