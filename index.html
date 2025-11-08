@@ -1,36 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <!-- <script>
-    const pageTitle = "Diptaksho Palit";
-
+  <title>Diptaksho Palit</title>
+  <script>
     fetch("/partials/head.html")
       .then((res) => res.text())
       .then((data) => {
-        document.head.innerHTML = `<title>${pageTitle}</title>\n${data}`;
+        document.head.innerHTML = data;
       });
-  </script> -->
-  
-  <title>Diptaksho Palit</title>
-  <object type="text/html" data="/partials/head.html" id="head-partial" style="display:none;"></object>
+  </script>
 </head>
 
-<!-- <script>
+<script>
   fetch("/partials/nav.html")
     .then(response => response.text())
     .then(data => {
       document.getElementById("navbar-placeholder").innerHTML = data;
     });
-</script> -->
+</script>
   
 <body>
   <div class="container">
 
     <!-- navbar -->
-    <!-- <div id="navbar-placeholder"></div> -->
-    <object type="text/html" data="/partials/nav.html"
-            id="navbar-placeholder"
-            style="width:100%; height:60px; border:0;"></object>
+    <div id="navbar-placeholder"></div>
     
     <!-- about -->
     <div class="docs-section" id="about">
