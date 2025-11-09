@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Diptaksho Palit | Miscellaneous</title>
+  
+  <link rel="stylesheet" href="/css/style.css">
+  <link rel="icon" type="image/png" href="assets/favicon.png">
+</head>
+
+<script>
+  fetch("/partials/nav.html")
+    .then(response => response.text())
+    .then(data => {
+      document.getElementById("navbar-placeholder").innerHTML = data;
+    });
+</script>
+  
+<body>
+  <div class="container">
+
+    <!-- navbar -->
+    <div id="navbar-placeholder"></div>
+
+    <!-- miscellaneous -->
+    <div class="docs-section" id="game development">
+      <h6 class="docs-header">Game Development</h6>
+
+      <p>
+        Between 2015 and 2021, I was doing a fair amount of game development.
+        My first games were console versions of Frogger and Pac-Man, coded in BASIC.
+        Till 2020, I was writing everything from scratch in Java.
+        I learnt various game-dev fundamentals such as 2.5D backgrounds, isometric rendering, procedural terrain generation, hosting multiplayer games on servers, using spritesheets for animations, and efficient collision detection algorithms.
+        In 2021, I began coding in Unity and Unreal Engine.
+        The same year, I collaboratively participated in a game jam at IIT Kanpur.
+        You can find our submission
+        <a href="https://crypthicc.itch.io/particles" target="_blank">here</a>. 
+      </p>      
+    </div>
+
+    <div class="docs-section" id="board games">
+      <h6 class="docs-header">Board Games and TTRPGS</h6>
+
+      <p>
+        I joined a Dungeons & Dragons campaign in 2020 and have been playing with the group ever since.
+        Every now and then, I will run my own multi-shot to explore fantasy worldbuilding and storytelling techniques (usually follows a particularly inspiring novel that I just read).  
+        I made a valiant effort to follow
+        <a href="https://www.youtube.com/c/criticalrole" target="_blank">Critical Role</a>'s
+        live-play, specifically their third campaign, but retired hurt at around episode 69.
+        They have some fantastic multi-shots, though, if you're wondering how D&D works -
+        <a href="https://www.youtube.com/playlist?list=PLxpS2Q_QbR0cPCLxnnP3VnEiKk3tmsQ4f" target="_blank">Exandria Unlimited: Calamity</a>
+        is one of my favourites.
+      </p>
+
+      <p>
+        The same TTRPG group got me into board games as well.
+        Some of my favourites are Splendor, Citadels, and Everdell, although I prefer card games over board games.
+        They are sufficiently random, and the mechanics are familiar enough that one can reasonably play a competitive round even after just being introduced to a new game.
+        That being said, I've been (unsuccessfully) looking for a group to play Bridge with for the past two years.
+        <a href="https://www.pagat.com/alpha/" target="_blank">Here</a>
+        is a great resource if you're looking to find a new card game to play.
+      </p>
+    </div>
+    
+  </div>
+</body>
+</html>
