@@ -1,35 +1,71 @@
 /* ==========================================================
    VARIABLES
-   Change this file to quickly restyle the website.
+   Design System
    ========================================================== */
 
 :root {
 
-    /* ---------- Colors ---------- */
+    /* ======================================================
+       COLOR PALETTE
+       ====================================================== */
 
     --bg: #FAFAF8;
+
     --hero-bg: #6F4E37;
+    --hero-text: #FAFAF8;
 
     --text: #222222;
     --muted: #666666;
-
-    --hero-text: #FAFAF8;
 
     --accent: #6F4E37;
     --accent-hover: #8A6A3D;
 
     --divider: #E8E2D4;
 
-    /* ---------- Typography ---------- */
+
+    /* ======================================================
+       TYPOGRAPHY
+       ====================================================== */
 
     --font-body: "IBM Plex Sans", sans-serif;
     --font-mono: "Geist Mono", monospace;
 
-    /* ---------- Layout ---------- */
+    /* Font sizes */
 
-    --content-width: 760px;
+    --text-xs: 0.90rem;
+    --text-sm: 1.00rem;
+    --text-md: 1.10rem;
+    --text-lg: 1.25rem;
 
-    /* ---------- Spacing ---------- */
+    --heading-sm: 1.75rem;
+    --heading-md: 2.10rem;
+    --heading-lg: 2.90rem;
+
+    /* Font weights */
+
+    --weight-regular: 400;
+    --weight-medium: 500;
+    --weight-semibold: 600;
+    --weight-bold: 700;
+
+    /* Line heights */
+
+    --line-body: 1.70;
+    --line-heading: 1.20;
+
+
+    /* ======================================================
+       LAYOUT
+       ====================================================== */
+
+    --content-width: 800px;
+
+    --hero-photo-size: 170px;
+
+
+    /* ======================================================
+       SPACING
+       ====================================================== */
 
     --space-xs: 0.5rem;
     --space-sm: 1rem;
@@ -37,12 +73,18 @@
     --space-lg: 4rem;
     --space-xl: 6rem;
 
-    /* ---------- Border Radius ---------- */
+
+    /* ======================================================
+       BORDERS
+       ====================================================== */
 
     --radius: 14px;
     --hero-radius: 22px;
 
-    /* ---------- Transitions ---------- */
 
-    --transition: 0.18s ease;
+    /* ======================================================
+       EFFECTS
+       ====================================================== */
+
+    --transition-fast: 0.18s ease;
 }
