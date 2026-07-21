@@ -32,32 +32,30 @@
 
     /* Font sizes */
 
-    --text-h1: 1.500rem;
-    --text-h2: 1.250rem;
-    --text-h3: 1.125rem;
-    --text-h4: 1.000rem;
-    --text-bd: 0.875rem;
-    --text-tn: 0.750rem;
+    --font-size-h1: 1.500rem;
+    --font-size-h2: 1.250rem;
+    --font-size-h3: 1.125rem;
+    --font-size-h4: 1.000rem;
+    --font-size-bd: 0.875rem;
+    --font-size-tn: 0.750rem;
 
     /* Font weights */
 
-    --weight-regular: 400;
-    --weight-medium: 500;
-    --weight-semibold: 600;
-    --weight-bold: 700;
+    --font-weight-h1: 600;
+    --font-weight-h2: 600;
+    --font-weight-h3: 600;
+    --font-weight-h4: 600;
+    --font-weight-bd: 400;
 
     /* Line heights */
 
-    --line-body: 1.70;
-    --line-heading: 1.20;
-
+    --line-height-bd: 1.50;
 
     /* ======================================================
        LAYOUT
        ====================================================== */
 
     --content-width: 800px;
-
     --hero-photo-size: 170px;
 
 
@@ -65,11 +63,12 @@
        SPACING
        ====================================================== */
 
-    --space-xs: 0.5rem;
-    --space-sm: 1rem;
-    --space-md: 2rem;
-    --space-lg: 4rem;
-    --space-xl: 6rem;
+    --margin-sec: 6rem;
+    --margin-hr: 6rem;
+    --margin-p-top: 0.8750rem;
+    --margin-p-bot: 0.4375rem;
+
+    --padding-ft: 1.5rem;
 
 
     /* ======================================================
@@ -78,11 +77,4 @@
 
     --radius: 14px;
     --hero-radius: 22px;
-
-
-    /* ======================================================
-       EFFECTS
-       ====================================================== */
-
-    --transition-fast: 0.18s ease;
 }
