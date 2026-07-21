@@ -3,31 +3,14 @@
    ========================================================== */
 
 nav {
-
     width: var(--content-width);
-
-    margin: 2rem auto;
-
+    margin: var(--margin-nav);
     display: flex;
-
     justify-content: flex-end;
-
-    gap: 2rem;
-
-    font-size: 1rem;
 }
 
-nav a {
-
-    color: var(--text);
-
-    font-weight: 500;
-}
-
-nav a:hover {
-
-    color: var(--accent);
-}
+nav a { color: var(--text); font-weight: var(--font-weight-nv); }
+nav a:hover { color: var(--accent); }
 
 /* ==========================================================
    HERO
