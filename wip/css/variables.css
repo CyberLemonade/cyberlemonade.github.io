@@ -32,14 +32,12 @@
 
     /* Font sizes */
 
-    --text-xs: 0.90rem;
-    --text-sm: 1.00rem;
-    --text-md: 1.10rem;
-    --text-lg: 1.25rem;
-
-    --heading-sm: 1.75rem;
-    --heading-md: 2.10rem;
-    --heading-lg: 2.90rem;
+    --text-h1: 1.500rem;
+    --text-h2: 1.250rem;
+    --text-h3: 1.125rem;
+    --text-h4: 1.000rem;
+    --text-bd: 0.875rem;
+    --text-tn: 0.750rem;
 
     /* Font weights */
 
