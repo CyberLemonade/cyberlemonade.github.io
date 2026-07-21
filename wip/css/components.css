@@ -1,0 +1,206 @@
+/* ==========================================================
+   NAVIGATION
+   ========================================================== */
+
+nav {
+
+    width: var(--content-width);
+
+    margin: 2rem auto;
+
+    display: flex;
+
+    justify-content: flex-end;
+
+    gap: 2rem;
+
+    font-size: 1rem;
+}
+
+nav a {
+
+    color: var(--text);
+
+    font-weight: 500;
+}
+
+nav a:hover {
+
+    color: var(--accent);
+}
+
+/* ==========================================================
+   HERO
+   ========================================================== */
+
+.hero {
+
+    background: var(--hero-bg);
+
+    color: var(--hero-text);
+
+    border-radius: var(--hero-radius);
+
+    padding: 2rem;
+
+    display: flex;
+
+    gap: 2rem;
+
+    align-items: center;
+}
+
+.hero-photo {
+
+    width: 170px;
+
+    height: 170px;
+
+    border-radius: var(--radius);
+
+    object-fit: cover;
+
+    flex-shrink: 0;
+}
+
+.hero-content {
+
+    flex: 1;
+}
+
+.hero h1 {
+
+    color: var(--hero-text);
+
+    margin-bottom: 0.6rem;
+}
+
+.hero-subtitle {
+
+    font-size: 1.2rem;
+
+    margin-bottom: 0.2rem;
+}
+
+.hero-location {
+
+    font-family: var(--font-mono);
+
+    opacity: 0.85;
+
+    margin-bottom: 1.5rem;
+}
+
+.hero-links {
+
+    display: flex;
+
+    gap: 0.9rem;
+
+    flex-wrap: wrap;
+
+    font-family: var(--font-mono);
+
+    font-size: 0.95rem;
+}
+
+.hero-links a {
+
+    color: var(--hero-text);
+
+    opacity: 0.9;
+}
+
+.hero-links a:hover {
+
+    opacity: 1;
+}
+
+.hero-links span {
+
+    opacity: 0.85;
+}
+
+/* ==========================================================
+   PUBLICATIONS
+   ========================================================== */
+
+.publication {
+
+    margin-bottom: 2.5rem;
+}
+
+.publication:last-child {
+
+    margin-bottom: 0;
+}
+
+.publication-title {
+
+    font-size: 1.15rem;
+
+    margin-bottom: 0.4rem;
+}
+
+.publication-authors {
+
+    color: var(--muted);
+
+    margin-bottom: 0.25rem;
+}
+
+.publication-meta {
+
+    font-family: var(--font-mono);
+
+    color: var(--muted);
+
+    font-size: 0.92rem;
+
+    margin-bottom: 0.6rem;
+}
+
+.publication-links {
+
+    display: flex;
+
+    gap: 1rem;
+
+    font-size: 0.95rem;
+}
+
+/* ==========================================================
+   SIMPLE LISTS
+   ========================================================== */
+
+.simple-list {
+
+    list-style: none;
+
+    padding: 0;
+
+    margin: 0;
+}
+
+.simple-list li {
+
+    margin-bottom: 0.9rem;
+}
+
+/* ==========================================================
+   FOOTER
+   ========================================================== */
+
+.footer-note {
+
+    text-align: center;
+}
+
+/* ==========================================================
+   UTILITIES
+   ========================================================== */
+
+.spacer {
+
+    height: var(--space-lg);
+}
