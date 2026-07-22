@@ -4,8 +4,8 @@
 
 nav {
     width: var(--content-width);
-    margin: var(--margin-nav);
-    gap: var(--margin-gap);
+    margin: var(--margin-nv);
+    gap: var(--gap-nv);
     display: flex;
     justify-content: flex-end;
 }
