@@ -67,10 +67,11 @@
     --margin-hr: 6rem;
     --margin-p-top: 0.8750rem;
     --margin-p-bot: 0.4375rem;
-    --margin-nav: 2rem;
+    --margin-nv: 2rem;
 
     --padding-ft: 1.5rem;
 
+    --gap-nv: 2rem;
 
     /* ======================================================
        BORDERS
