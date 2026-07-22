@@ -5,6 +5,7 @@
 nav {
     width: var(--content-width);
     margin: var(--margin-nav);
+    gap: var(--margin-gap);
     display: flex;
     justify-content: flex-end;
 }
