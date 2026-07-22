@@ -35,7 +35,7 @@ nav a:hover { color: var(--accent); }
     flex-shrink: 0;
 }
 
-.hero-links { font-family: var(--font-mono); }
+.hero-links { color: var(--hero-text); font-family: var(--font-mono); }
 .hero-links a { opacity: 0.9; }
 .hero-links a:hover { opacity: 1; }
 
