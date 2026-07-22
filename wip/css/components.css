@@ -35,10 +35,10 @@ nav a:hover { color: var(--accent); }
     flex-shrink: 0;
 }
 
-.hero-name { font-size: var(--font-size-h1); font-weight: var(--font-weight-h1); }
+.hero-name { font-size: var(--font-size-h1); font-weight: var(--font-weight-h1); margin: 0 0 0; }
 .hero-affiliation { font-size: var(--font-size-h4); margin: 0.5rem 0 0; }
-.hero-location { font-size: var(--font-size-bd); opacity: 0.85; margin-top: 0.5rem 0 0; }
-.hero-links { font-family: var(--font-mono); margin-top: 1.0rem 0 0; }
+.hero-location { font-size: var(--font-size-bd); opacity: 0.85; margi: 0.5rem 0 0; }
+.hero-links { font-family: var(--font-mono); margin: 1.0rem 0 0; }
 .hero-links a { color: var(--hero-text); opacity: 0.9; }
 .hero-links a:hover { opacity: 1; }
 
