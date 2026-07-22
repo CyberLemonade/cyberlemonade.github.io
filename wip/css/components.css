@@ -35,8 +35,13 @@ nav a:hover { color: var(--accent); }
     flex-shrink: 0;
 }
 
-.hero-links { color: var(--hero-text); font-family: var(--font-mono); }
-.hero-links a { opacity: 0.9; }
+.hero h1 { color: var(--hero-text); }
+.hero h2 { color: var(--hero-text); }
+.hero h3 { color: var(--hero-text); }
+.hero h4 { color: var(--hero-text); }
+
+.hero-links { font-family: var(--font-mono); }
+.hero-links a { color: var(--hero-text); opacity: 0.9; }
 .hero-links a:hover { opacity: 1; }
 
 /* ==========================================================
