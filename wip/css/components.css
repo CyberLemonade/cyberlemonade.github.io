@@ -51,6 +51,7 @@ nav a:hover { color: var(--accent); }
 .timeline {
    display: grid;
    /* grid-template-columns: 80px 1fr; */
+   flex-direction: row;
    column-gap: 2rem;
    row-gap: 2rem;
    align-items: start;
