@@ -2,10 +2,6 @@
    BASE STYLES
    ========================================================== */
 
-*,
-*::before,
-*::after { box-sizing: border-box; }
-
 html { font-size: 12px; }
 
 body {
