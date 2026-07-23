@@ -2,16 +2,16 @@
    NAVIGATION
    ========================================================== */
 
-nav, main { max-width: var(--content-width); margin: var(--margin-nv) auto; }
+nav, main { max-width: 800px; margin: 2rem auto; }
 
 nav {
-    width: var(--content-width);
-    gap: var(--gap-nv);
+    /* width: var(--content-width); */
+    gap: 2rem;
     display: flex;
     justify-content: flex-end;
 }
 
-nav a { color: var(--text); font-weight: var(--font-weight-nv); }
+nav a { color: var(--text); font-weight: 500; }
 nav a:hover { color: var(--accent); }
 
 /* ==========================================================
@@ -21,27 +21,29 @@ nav a:hover { color: var(--accent); }
 .hero {
     background: var(--hero-bg);
     color: var(--hero-text);
-    border-radius: var(--hero-radius);
+    border-radius: 2rem;
     padding: 3rem;
     display: flex;
     gap: 2rem;
     align-items: center;
-    margin: 0 0 var(--margin-hero-bot);
+    margin: 0 0 4rem;
 }
 
 .hero-photo {
-    width: var(--hero-photo-size);
-    height: var(--hero-photo-size);
-    border-radius: var(--hero-photo-radius);
+    width: 10rem;
+    height: 10rem;
+    border-radius: 1.25rem;
     object-fit: cover;
     flex-shrink: 0;
 }
 
-.hero-name { font-size: var(--font-size-h1); font-weight: var(--font-weight-h1); margin: 0 0 0; }
+/* .hero-name { font-size: var(--font-size-h1); font-weight: var(--font-weight-h1); margin: 0 0 0; } */
+.hero-name { margin: 0 0 0; }
 
 .hero-affiliation { font-size: var(--font-size-h4); margin: 0.5rem 0 0; }
 
-.hero-location { font-size: var(--font-size-bd); opacity: 0.85; margi: 0.5rem 0 0; }
+/* .hero-location { font-size: var(--font-size-bd); opacity: 0.85; margin: 0.5rem 0 0; } */
+.hero-location { opacity: 0.85; margin: 0.5rem 0 0; }
 
 .hero-links { font-family: var(--font-mono); margin: 1.0rem 0 0; }
 .hero-links a { color: var(--hero-text); opacity: 0.9; }
