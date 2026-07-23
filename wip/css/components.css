@@ -1,4 +1,4 @@
-main { width: var(--content-width); }
+/* main { width: var(--content-width); } */
 
 /* ==========================================================
    NAVIGATION
@@ -6,7 +6,7 @@ main { width: var(--content-width); }
 
 nav {
     width: var(--content-width);
-    margin: var(--margin-nv);
+    margin: var(--margin-nv) auto;
     gap: var(--gap-nv);
     display: flex;
     justify-content: flex-end;
