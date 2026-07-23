@@ -93,3 +93,21 @@ nav a:hover { color: var(--accent); }
    ========================================================== */
 
 .footer-note { text-align: center; }
+
+/* ==========================================================
+   PROPERTY TESTING
+   ========================================================== */
+
+.property-testing {
+    margin-top: 1.5rem;
+}
+
+.property-testing summary {
+    cursor: pointer;
+    font-family: var(--font-mono);
+    color: var(--muted);
+}
+
+.property-testing[open] summary {
+    margin-bottom: 0.75rem;
+}
