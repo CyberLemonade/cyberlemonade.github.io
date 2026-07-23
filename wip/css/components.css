@@ -70,7 +70,7 @@ nav a:hover { color: var(--accent); }
     gap: 0.15rem;
 }
 
-.publication-title { margin: 0 0 0; padding: 0; }
+.publication-title { margin: 0 0 0; }
 .publication-authors { color: var(--muted); }
 .publication-meta { font-family: var(--font-mono); color: var(--muted); }
 
