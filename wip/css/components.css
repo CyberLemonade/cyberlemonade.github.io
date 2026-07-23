@@ -37,8 +37,6 @@ nav a:hover { color: var(--accent); }
     flex-shrink: 0;
 }
 
-/* .hero-content { flex: 1; }
- */
 .hero-name { font-size: var(--font-size-h1); font-weight: var(--font-weight-h1); margin: 0 0 0; }
 
 .hero-affiliation { font-size: var(--font-size-h4); margin: 0.5rem 0 0; }
