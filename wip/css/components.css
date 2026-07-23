@@ -37,10 +37,7 @@ nav a:hover { color: var(--accent); }
 }
 
 .hero-name { color: var(--hero-text); margin: 0 0 0; }
-
 .hero-affiliation { color: var(--hero-text); font-weight: 400; margin: 0.5rem 0 0; }
-
-/* .hero-location { font-size: var(--font-size-bd); opacity: 0.85; margin: 0.5rem 0 0; } */
 .hero-location { opacity: 0.85; margin: 0.5rem 0 0; }
 
 .hero-links { font-family: var(--font-mono); margin: 1.0rem 0 0; }
@@ -73,7 +70,7 @@ nav a:hover { color: var(--accent); }
     gap: 0.15rem;
 }
 
-.publication-title { margin: 0 0 0; }
+.publication-title { margin: 0 0 0; padding: 0; }
 .publication-authors { color: var(--muted); }
 .publication-meta { font-family: var(--font-mono); color: var(--muted); }
 
@@ -93,9 +90,3 @@ nav a:hover { color: var(--accent); }
    ========================================================== */
 
 .footer-note { text-align: center; }
-
-/* ==========================================================
-   UTILITIES
-   ========================================================== */
-
-/* .spacer { height: var(--space-lg); } */
