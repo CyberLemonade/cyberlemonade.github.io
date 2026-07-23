@@ -1,12 +1,12 @@
-/* main { width: var(--content-width); } */
-
 /* ==========================================================
    NAVIGATION
    ========================================================== */
 
+nav, main { max-width: var(--content-width); margin: var(--margin-nv) auto; }
+
 nav {
     width: var(--content-width);
-    margin: var(--margin-nv) auto;
+    /* margin: var(--margin-nv) auto; */
     gap: var(--gap-nv);
     display: flex;
     justify-content: flex-end;
