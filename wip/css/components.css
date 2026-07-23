@@ -52,10 +52,11 @@ nav a:hover { color: var(--accent); }
    ========================================================== */
 
 .publications {
-    display: grid;
-    grid-template-columns: 90px 1fr;
-    column-gap: 2rem;
-    margin-bottom: 3rem;
+   display: grid;
+   grid-template-columns: 80px 1fr;
+   column-gap: 2rem;
+   align-items: start;
+   margin-bottom: 3rem;
 }
 
 .publication-year { font-family: var(--font-mono); color: var(--muted); }
