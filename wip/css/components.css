@@ -51,49 +51,29 @@ nav a:hover { color: var(--accent); }
    PUBLICATIONS
    ========================================================== */
 
-.publication {
-
-    margin-bottom: 2.5rem;
+.publications {
+    display: grid;
+    grid-template-columns: 90px 1fr;
+    column-gap: 2rem;
+    margin-bottom: 3rem;
 }
 
-.publication:last-child {
+.publication-year { font-family: var(--font-mono); color: var(--muted); }
 
-    margin-bottom: 0;
+.publication-year-list { 
+   display: flex;
+   flex-direction: column;
+   gap: 2rem;
 }
 
-.publication-title {
-
-    font-size: 1.15rem;
-
-    margin-bottom: 0.4rem;
-}
-
-.publication-authors {
-
-    color: var(--muted);
-
-    margin-bottom: 0.25rem;
-}
-
-.publication-meta {
-
-    font-family: var(--font-mono);
-
-    color: var(--muted);
-
-    font-size: 0.92rem;
-
-    margin-bottom: 0.6rem;
-}
-
-.publication-links {
-
+.publication-item {
     display: flex;
-
-    gap: 1rem;
-
-    font-size: 0.95rem;
+    flex-direction: column;
+    gap: 0.15rem;
 }
+
+.publication-authors { color: var(--muted); }
+.publication-meta { font-family: var(--font-mono); color: var(--muted); }
 
 /* ==========================================================
    SIMPLE LISTS
