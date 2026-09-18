@@ -3,10 +3,9 @@
    ========================================================== */
 
 /* nav, main { max-width: 60rem; margin: 2rem auto; } */
-main { max-width: 60rem; }
+nav, main { max-width: 50rem; margin: 2rem auto; }
 
 nav {
-   margin: 2rem auto; 
    gap: 2rem;
    display: flex;
    justify-content: flex-end;
