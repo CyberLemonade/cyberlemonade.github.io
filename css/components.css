@@ -2,8 +2,10 @@
    NAVIGATION
    ========================================================== */
 
-/* nav, main { max-width: 60rem; margin: 2rem auto; } */
-nav, main { max-width: 50rem; margin: 2rem auto; }
+nav, main { max-width: 60rem; margin: 2rem auto; }
+@media (max-width: 1000px) {
+   nav, main { max-width: 50rem; margin: 2rem auto; }
+}
 
 nav {
    gap: 2rem;
